@@ -13,3 +13,19 @@ This notebook demonstrates the implementation of K-Nearest Neighbors (KNN) for c
 
 - **Decision Tree**\
 This notebook explores decision trees, including both the process of building the tree and techniques for pruning to prevent overfitting. The implementation covers the algorithm's ability to recursively partition data based on features and the decision rules created at each node.
+
+## How to Use
+1. Clone the repository to your local machine or open the individual Google Colab notebooks for execution:
+```bash
+git clone https://github.com/matija13795/ML-Algorithms-from-Scratch
+```
+
+2. Each file contains a Jupyter Notebook with an implementation of a different machine learning algorithm. Open the notebooks in Google Colab or your preferred Jupyter environment.
+3. Each notebook contains explanations and code. Follow the markdown cells for a detailed breakdown of the concepts and implementation.
+
+## Requirements
+To run the code, make sure you have the following libraries installed:
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn

@@ -5,15 +5,11 @@ Welcome to my repository of machine learning algorithms implemented from scratch
 ## Repository Structure
 This repository is organized into three main categories based on the type of algorithms I implemented:
 
-- Clustering Algorithms:
-  - K-Means: Implementation of the k-means clustering algorithm to classify data points into distinct clusters.
-  - K-Modes: Adaptation of k-means for categorical data using modes instead of means.
-  - K-Prototypes: A combination of k-means and k-modes to handle mixed data types (numerical and categorical).
+1. **Clustering with K-Means, K-Modes, and K-Prototypes**
+This notebook covers clustering algorithms, starting with the k-means algorithm and extending to k-modes and k-prototypes. The focus is on understanding how clustering works with numerical and categorical data, and the differences in their behavior depending on the type of data being processed.
 
-- Supervised Learning:
-  - Logistic Regression: Built from scratch to predict binary outcomes, with exploration of regularization techniques.
-  - Decision Tree: Implemented decision trees from scratch, including techniques for pruning to improve model performance.
+2. **KNN and Logistic Regression**
+This notebook demonstrates the implementation of K-Nearest Neighbors (KNN) for classification and Logistic Regression. The goal was to build these models from scratch and understand how the algorithms classify data, as well as the underlying concepts such as distance metrics for KNN and sigmoid functions for Logistic Regression.
 
-- Neural Networks:
-  - Convolutional Neural Network (CNN): A simple CNN implemented for image classification tasks.
-  - Deep Neural Network (DNN) for Recommender System: Designed a DNN to predict user preferences and provide personalized recommendations.
+3. **Decision Tree**
+This notebook explores decision trees, including both the process of building the tree and techniques for pruning to prevent overfitting. The implementation covers the algorithm's ability to recursively partition data based on features and the decision rules created at each node.

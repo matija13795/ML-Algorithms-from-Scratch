@@ -3,7 +3,7 @@
 Welcome to my Machine Learning Projects repository! This collection features machine learning algorithms implemented from scratch and predictive analytics techniques applied to real-world datasets. Each notebook includes code, explanations, and results from different machine learning techniques.
 
 ## Repository Structure
-This repository is organized into two main folders:\
+This repository is organized into two main folders:
 - 📁 ML_from_scratch/
 - 📁 unsupervised_learning/
 

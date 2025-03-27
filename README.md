@@ -4,13 +4,13 @@ Welcome to my Machine Learning Projects repository! This collection features mac
 
 ## Repository Structure
 This repository is organized into two main folders:\
-📁 ML_from_scratch/ – Implements fundamental ML algorithms from scratch, focusing on understanding core concepts without high-level libraries like Scikit-Learn.\
-📁 unsupervised_learning/ – Applies ML techniques to real-world datasets, with a focus on dimensionality reduction and clustering-based segmentation.\
+📁 ML_from_scratch/ \
+📁 unsupervised_learning/
 
 1️⃣ ML_from_scratch/ \
-This folder contains implementations of key machine learning algorithms from the ground up.
+This folder contains implementations of key machine learning algorithms without the use of high-level libraries like Scikit-Learn.
 - **Clustering with K-Means, K-Modes, and K-Prototypes**\
-This notebook covers clustering algorithms, starting with the k-means algorithm and extending to k-modes and k-prototypes. The focus is on understanding how clustering works with numerical and categorical data, and the differences in their behavior depending on the type of data being processed.
+This notebook covers clustering algorithms, starting with k-means and extending to k-modes and k-prototypes. The focus is on understanding how clustering works with numerical and categorical data, and the differences in their behavior depending on the type of data being processed.
 
 - **KNN and Logistic Regression**\
 This notebook demonstrates the implementation of K-Nearest Neighbors (KNN) for classification and Logistic Regression. The goal was to build these models from scratch to understand how the algorithms classify data. It also covers key concepts such as distance metrics used in KNN, as well as the sigmoid function, cost function, and gradient descent in Logistic Regression.
@@ -21,7 +21,7 @@ This notebook explores decision trees, including both the process of building th
 2️⃣ unsupervised_learning/ \
 This folder applies unsupervised learning techniques to real-world datasets, focusing on dimensionality reduction, clustering, and customer segmentation.
 - PCA + Clustering (Customer Segmentation)
-  - Dataset: Nightclub customer survey (pricing fairness, intent to revisit, demographics).
+  - Dataset: Nightclub customer survey
   - Techniques: Principal Component Analysis (PCA) for dimensionality reduction + K-Means & Hierarchical Clustering for segmentation.
   - Insights: Identified distinct customer segments to help optimize pricing strategies.
 

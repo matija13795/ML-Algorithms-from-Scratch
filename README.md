@@ -1,10 +1,14 @@
-# ML-Algorithms-from-Scratch
+# Machine-Learning-Projects
 
-Welcome to my repository of machine learning algorithms implemented from scratch. In this collection, I have implemented a variety of classical machine learning algorithms from scratch to deepen my understanding of machine learning concepts. Each notebook includes code, explanations, and results from different machine learning techniques.
+Welcome to my Machine Learning Projects repository! This collection features machine learning algorithms implemented from scratch and predictive analytics techniques applied to real-world datasets. Each notebook includes code, explanations, and results from different machine learning techniques.
 
 ## Repository Structure
-This repository is organized into three main categories based on the type of algorithms I implemented:
+This repository is organized into two main folders:
+📁 ML_from_scratch/ – Implements fundamental ML algorithms from scratch, focusing on understanding core concepts without high-level libraries like Scikit-Learn.
+📁 unsupervised_learning/ – Applies ML techniques to real-world datasets, with a focus on dimensionality reduction and clustering-based segmentation.
 
+1️⃣ ML_from_scratch/
+This folder contains implementations of key machine learning algorithms from the ground up.
 - **Clustering with K-Means, K-Modes, and K-Prototypes**\
 This notebook covers clustering algorithms, starting with the k-means algorithm and extending to k-modes and k-prototypes. The focus is on understanding how clustering works with numerical and categorical data, and the differences in their behavior depending on the type of data being processed.
 
@@ -14,12 +18,18 @@ This notebook demonstrates the implementation of K-Nearest Neighbors (KNN) for c
 - **Decision Tree**\
 This notebook explores decision trees, including both the process of building the tree and techniques for pruning to prevent overfitting. The implementation covers the algorithm's ability to recursively partition data based on features and the decision rules created at each node.
 
+2️⃣ unsupervised_learning/
+This folder applies unsupervised learning techniques to real-world datasets, focusing on dimensionality reduction, clustering, and customer segmentation.
+- PCA + Clustering (Customer Segmentation)
+  - Dataset: Nightclub customer survey (pricing fairness, intent to revisit, demographics).
+  - Techniques: Principal Component Analysis (PCA) for dimensionality reduction + K-Means & Hierarchical Clustering for segmentation.
+  - Insights: Identified distinct customer segments to help optimize pricing strategies.
+
 ## How to Use
 1. Clone the repository to your local machine or open the individual Google Colab notebooks for execution:
 ```bash
-git clone https://github.com/matija13795/ML-Algorithms-from-Scratch
+git clone https://github.com/matija13795/Machine-Learning-Projects
 ```
-
 2. Each file contains a Jupyter Notebook with an implementation of a different machine learning algorithm. Open the notebooks in Google Colab or your preferred Jupyter environment.
 3. Each notebook contains explanations and code. Follow the markdown cells for a detailed breakdown of the concepts and implementation.
 
@@ -28,4 +38,4 @@ To run the code, make sure you have the following libraries installed:
 - NumPy
 - Pandas
 - Matplotlib
-- Scikit-learn
+- Seaborn

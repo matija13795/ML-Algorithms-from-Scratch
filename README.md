@@ -4,8 +4,8 @@ Welcome to my Machine Learning Projects repository! This collection features mac
 
 ## Repository Structure
 This repository is organized into two main folders:\
-📁 ML_from_scratch/ \
-📁 unsupervised_learning/
+- 📁 ML_from_scratch/ \
+- 📁 unsupervised_learning/
 
 1️⃣ ML_from_scratch/ \
 This folder contains implementations of key machine learning algorithms without the use of high-level libraries like Scikit-Learn.

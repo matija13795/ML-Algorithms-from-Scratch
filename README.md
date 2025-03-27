@@ -6,6 +6,7 @@ Welcome to my Machine Learning Projects repository! This collection features mac
 This repository is organized into two main folders:\
 - 📁 ML_from_scratch/
 - 📁 unsupervised_learning/
+
 \
 1️⃣ ML_from_scratch/ \
 This folder contains implementations of key machine learning algorithms without the use of high-level libraries like Scikit-Learn.
@@ -20,7 +21,7 @@ This notebook explores decision trees, including both the process of building th
 
 2️⃣ unsupervised_learning/ \
 This folder applies unsupervised learning techniques to real-world datasets, focusing on dimensionality reduction, clustering, and customer segmentation.
-- PCA + Clustering (Customer Segmentation)
+- **PCA + Clustering (Customer Segmentation)**
   - Dataset: Nightclub customer survey
   - Techniques: Principal Component Analysis (PCA) for dimensionality reduction + K-Means & Hierarchical Clustering for segmentation.
   - Insights: Identified distinct customer segments to help optimize pricing strategies.
